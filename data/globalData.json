@@ -1,80 +1,85 @@
 {
   "enable_development_mode": false,
-  "company_name": "Tyska Alexander Orthodontics",
-  "domain": "taortho.com",
-  "email": "info@mandtortho.com",
+  "company_name": "Island Orthodontics",
+  "domain": "www.islandortho.com",
+  "email": "appointments@islandortho.com",
   "phone": {
-    "number": "(716) 759-8323",
-    "href": "tel:+17167598323",
-    "aria": "7 1 6, 7 5 9, 8 3 2 3"
+    "number": "(631) 586-7654",
+    "href": "tel:+16315867654",
+    "aria": "6 3 1, 5 8 6, 7 6 5 4"
   },
   "location": [
     {
-      "title": "Clarence Office",
+      "title": "Deer Park",
       "address": {
-        "street": "9650 Main Street",
+        "street": "1990 Deer Park Avenue",
         "suite": "",
-        "city_state": "Clarence, NY 14031",
+        "city_state": "Deer Park, NY 11729",
         "coordinates": {
-          "longitude": "-78.6314355",
-          "latitude": "42.9736638"
+          "longitude": "-73.3314057",
+          "latitude": "40.7657086"
         }
       },
       "phone": {
-        "number": "(716) 759-8323",
-        "href": "tel:+17167598323"
+        "number": "(631) 586-7654",
+        "href": "tel:+16315867654"
       },
-      "email": "info@mandtortho.com",
+      "email": "DeerPark@IslandOrtho.com",
       "hours": [
         {
-          "day": "Monday",
-          "time": "8:30 am \t6:30 pm"
+          "day": "Mon - Fri",
+          "time": "Call for hours / By appointment"
         },
         {
-          "day": "Tuesday",
-          "time": "8:30 am \t6:30 pm"
+          "day": "Sat",
+          "time": "Closed"
         },
         {
-          "day": "Wednesday",
-          "time": "8:00 am \t11:30 am"
-        },
-        {
-          "day": "Thursday",
-          "time": "8:00 am \t6:00 pm"
-        },
-        {
-          "day": "Friday",
-          "time": "8:00 am \t11:30 am"
+          "day": "Sun",
+          "time": "Closed"
         }
       ],
       "directions_link": {
-        "href": "https://www.google.com/maps/search/?api=1&query=9650+Main+St+Clarence+NY+14031",
+        "href": "https://maps.google.com/?cid=16881037008223336611",
         "label": "Get Directions"
       },
-      "special_note": ""
+      "special_note": "Please call or use the appointment request form to schedule a consultation."
     },
     {
-      "title": "Tonawanda Office",
+      "title": "Lake Ronkonkoma",
       "address": {
-        "street": "1077 Delaware Rd",
-        "suite": "",
-        "city_state": "Tonawanda, NY 14223",
+        "street": "500 Portion Road",
+        "suite": "Suite 15",
+        "city_state": "Lake Ronkonkoma, NY 11779",
         "coordinates": {
-          "longitude": "-78.8730228",
-          "latitude": "42.9901241"
+          "longitude": "",
+          "latitude": ""
         }
       },
       "phone": {
-        "number": "(716) 875-0405",
-        "href": "tel:+17168750405"
+        "number": "(631) 588-1199",
+        "href": "tel:+16315881199"
       },
-      "email": "info@mandtortho.com",
-      "hours": [],
+      "email": "appointments@IslandOrtho.com",
+      "hours": [
+        {
+          "day": "Mon - Fri",
+          "time": "Call for hours / By appointment"
+        },
+        {
+          "day": "Sat",
+          "time": "Closed"
+        },
+        {
+          "day": "Sun",
+          "time": "Closed"
+        }
+      ],
       "directions_link": {
-        "href": "https://www.google.com/maps/search/?api=1&query=1077+Delaware+Rd+Tonawanda+NY+14223",
+        "href": "https://www.google.com/maps/search/?api=1&query=500+Portion+Road+Suite+15+Lake+Ronkonkoma+NY+11779",
         "label": "Get Directions"
       },
-      "special_note": ""
+      "special_note": "Please call or use the appointment request form to schedule a consultation."
     }
   ],
   "typography": [
@@ -94,28 +99,28 @@
     "content_alignment": "right",
     "links": [
       {
-        "icon": "tooth-two-v1",
-        "text": "9650 Main Street, Clarence, NY 14031",
-        "href": "https://www.google.com/maps/search/?api=1&query=9650+Main+St+Clarence+NY+14031",
-        "label": "View 9650 Main Street, Clarence, NY 14031 on google maps",
+        "icon": "tooth-two-v2",
+        "text": "1990 Deer Park Avenue, Deer Park, NY 11729",
+        "href": "https://maps.google.com/?cid=16881037008223336611",
+        "label": "View 1990 Deer Park Avenue, Deer Park, NY 11729 on google maps",
         "new_window": true
       },
       {
         "icon": "phone",
-        "text": "(716) 759-8323",
-        "href": "tel:+17167598323",
-        "label": "Call 7 1 6. 7 5 9. 8 3 2 3.",
+        "text": "(631) 586-7654",
+        "href": "tel:+16315867654",
+        "label": "Call (631) 586-7654",
         "new_window": false
       }
     ],
     "announcement": {
-      "icon": "tooth-two-v2",
-      "label": "",
-      "text": "",
-      "mobile_text": "",
+      "icon": "tooth-check",
+      "label": "Patient safety notice",
+      "text": "Our team follows enhanced safety protocols. Call or request an appointment online and our staff will walk you through arrival and visit details.",
+      "mobile_text": "Patient safety notice",
       "modal": {
-        "title": "",
-        "text": ""
+        "title": "Patient safety notice",
+        "text": "Island Orthodontics remains focused on patient safety. If you have questions about protocols for your visit, please call the office or submit an appointment request and our team will contact you with details."
       }
     }
   },
@@ -132,7 +137,7 @@
           "path": "/contact",
           "hash": "#form",
           "external": false,
-          "include_icon": true,
+          "include_icon": false,
           "icon": "tooth-two-v2",
           "color": "primary"
         }
@@ -150,7 +155,15 @@
   "footer": {
     "social_media": [
       {
-        "href": "https://www.youtube.com/channel/UC1pgQhnbNQ7Mf0xFm_2KF-g",
+        "href": "https://www.facebook.com/islandortho",
+        "icon": "facebook"
+      },
+      {
+        "href": "https://www.instagram.com/accounts/login/?next=/islandortho1/",
+        "icon": "instagram"
+      },
+      {
+        "href": "https://www.youtube.com/watch?v=UvH6pkkWmIU",
         "icon": "youtube"
       }
     ],
@@ -158,12 +171,12 @@
   },
   "enable_popup": false,
   "popup": {
-    "title": "",
+    "title": "Welcome to Island Orthodontics",
     "text": "",
     "image": {
-      "src": "",
+      "src": "https://www.islandortho.com/wp-content/uploads/2022/06/logo.png",
       "webp": "",
-      "alt": "",
+      "alt": "Island Orthodontics logo",
       "aria_hidden": false,
       "bgColor": "",
       "imageBackground": false,
